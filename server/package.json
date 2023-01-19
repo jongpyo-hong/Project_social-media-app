@@ -1,0 +1,24 @@
+{
+  "name": "server",
+  "version": "1.0.0",
+  "description": "M (MongoDB) : 데이터베이스\r E (Express) : 서버 프레임워크\r R (React) : 프론트엔드 프레임 워크\r N (NodeJS) : 서버 개발언어",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "devstart": "nodemon index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "cookie-parser": "^1.4.6",
+    "cors": "^2.8.5",
+    "dotenv": "^16.0.3",
+    "express": "^4.18.2",
+    "formidable": "^2.1.1",
+    "jsonwebtoken": "^8.5.1",
+    "mongoose": "^6.8.0",
+    "passport": "^0.6.0",
+    "passport-jwt": "^4.0.0"
+  }
+}
